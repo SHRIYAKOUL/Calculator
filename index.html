@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table  id="calculator-body">
+            <tr id="head"><th colspan="4" id="heading"><i>CALCULATOR</i></th></tr>
+            <tr>
+                <th colspan="4" id="calculator-screen"></th>
+            </tr>
+            
+            <tr class="row">
+                <td class="button" data-action="clear">AC</td>
+                <td class="button" data-action="delete">C</td>
+                <td class="button" data-action="modulus">%</td>
+                <td class="button" data-action="divide">/</td>
+            </tr>
+            <tr class="row">
+                <td class="button" data-value="7">7</td>
+                <td class="button" data-value="8">8</td>
+                <td class="button" data-value="9">9</td>
+                <td class="button" data-action="multiply">x</td>
+            </tr>
+            <tr class="row">
+                <td class="button" data-value="4">4</td>
+                <td class="button" data-value="5">5</td>
+                <td class="button" data-value="6">6</td>
+                <td class="button" data-action="subtract">-</td>
+            </tr>
+            <tr class="row">
+                <td class="button" data-value="1">1</td>
+                <td class="button" data-value="2">2</td>
+                <td class="button" data-value="3">3</td>
+                <td class="button" data-action="add">+</td>
+            </tr>
+            <tr class="row">
+                <td class="button" data-value="00">00</td>
+                <td class="button" data-value="0">0</td>
+                <td class="button" data-action="decimal">.</td>
+                <td class="button" id="equal" data-action="calculate">=</td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(59, 49, 54);
+}
+table{
+    border:3px solid palevioletred;
+    box-shadow: 5px 6px 10px plum;
+    color:plum;
+    border-spacing: 15px;
+}
+#calculator-body{
+    height:500px;
+    width:300px;
+    background-color: black;
+    margin:7vh 80vh;
+    padding:0.9rem;
+}
+#heading{
+    letter-spacing: 10px;
+    font-family: 'Brush Script MT',cursive ;
+    font-size: 1.5rem;
+}
+#head{
+    background-image: linear-gradient(50deg,rgb(44, 25, 44) 0%,rgb(107, 85, 107) 34%,rgb(73, 45, 73) 80%,rgb(107, 85, 107) 34%);
+}
+#calculator-screen{
+    height:100px;
+    width:300px;
+    border-radius:10%;
+    background-color: plum;
+    box-shadow: 2px 2px 8px rgb(225,235,215);
+    color:black;
+    
+}
+.row{
+    height:50px;
+    width:300px;
+}
+.button{
+    height:auto;
+    width:55px;
+    text-align: center;
+    color:plum;
+    font-size:1.1rem;
+
+}
+.button:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    border-radius: 50%;
+}
+#equal{
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: plum;
+    color:white;
+    box-shadow: 0 1px 5px rgb(248, 205, 248);
+}
